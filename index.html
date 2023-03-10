@@ -2,9 +2,48 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Page Title</title>
+  <title>Rock Paper Scissors</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Climate Crisis' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="rps.css">
+  <script src="rps.js" defer></script>
 </head>
+
 <body>
-  <script src="app.js"></script>
+  <div class="header">Rock &nbsp; &nbsp; Paper &nbsp; &nbsp; Scissors </div>
+  <div class="all">
+      <div class="upper-section">
+        <div class="players">
+            <div class="choice player-choice"></div>
+            <div class="player">
+                <div>You</div>
+                <div class="player-result">0</div>
+            </div>
+            <div class="computer">
+                <div>Computer</div>
+                <div class="computer-result">0</div>
+            </div>
+            <div class="choice computer-choice"></div>
+        </div>
+        <div class="round-title"></div>
+        <div class="expression"></div>
+        <div class="play-again"><button class="play-again-btn">Play Again?</button></div>
+      </div>
+
+        <div class="buttons">
+          <div class="rock-section">
+            <div class="sign">Rock</div>
+            <button class="rock game-item">✊</button>
+          </div>
+          <div class="paper-section">
+            <div class="sign">Paper</div>
+            <button class="paper game-item">✋</button>
+          </div>
+          <div class="scissors-section">
+            <div class="sign">Scissors</div>
+            <button class="scissors game-item">✌</button>
+          </div>
+        </div>
+  </div>
 </body>
 </html>
